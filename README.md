@@ -11,8 +11,8 @@ e.g.
 - .prototype doesn't exist, 
 - there's no RegExp, no array.push, ...
 
-For the moment the stringify'er can handle the basic datatypes in OPL
-If any more of them should be needed, they can be added easily
+For the moment the stringify'er can handle the basic datatypes in OPL.
+If any more of them should be needed, they can be added easily.
 
 --
 Example:
@@ -24,4 +24,6 @@ Example:
       writeln(stringify(x));
     }
 --
-*ToDo*: if tuple's use identifier, use it as object key
+*ToDo*: 
+- if tuples use identifier, use it as object key,
+- add IloIntRange and consorts
