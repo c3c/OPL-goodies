@@ -1,7 +1,7 @@
 JSON-for-OPL
 ============
 
-Provides a javascript implementation to export objects in OPL.
+Provides a javascript implementation to export objects in OPL, the language used in CPLEX.
 I based this on the JSON2 library by Douglas Crockford
 
 --
