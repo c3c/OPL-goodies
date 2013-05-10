@@ -23,7 +23,7 @@ function str(key, holder) {
         return quote(value);
     } else if (type == "IloTuple") {
         return quote(String(value));
-    } else if (type == "number" || type == "boolean" || type == "null" || type == "IloNumVar") {
+    } else if (type == "number" || type == "boolean" || type == "null" || type == "IloNumVar" || type == "IloNumExpr") {
         return String(value);
     } else {
         if (type.indexOf("IloMap") != -1) { // OPL appears to have an undocumented datatype 'IloMap_sub'
