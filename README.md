@@ -1,6 +1,8 @@
 OPL Goodies
 ============
 
+[OPL](http://www-01.ibm.com/software/commerce/optimization/modeling/index.html) is the modeling language used in CPLEX. It's the most powerful mathematical & constraint programming language that I know of. If you ended up here, you're probably an OPL believer yourself!
+
 * opl_json.js
     * Provides a javascript implementation to export objects in OPL to JSON
 * opl_print.js
