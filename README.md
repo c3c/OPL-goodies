@@ -1,8 +1,17 @@
-JSON-for-OPL
+OPL Goodies
 ============
 
-Provides a javascript implementation to export objects in OPL, the language used in CPLEX.
-I based this on the JSON2 library by Douglas Crockford
+* opl_json.js
+    * Provides a javascript implementation to export objects in OPL to JSON
+* opl_print.js
+    * Provides (s)printf functions using Java interfacing
+* opl_popups.js
+    * Provides window alerts & confirmations using Java interfacing
+* sudoku.mod
+    * A CP model to solve sudoku grids
+* sudoku_samurai.mod
+    * A CP model to solve samurai sudoku grids
+
 
 --
 OPL only has very basic javascript functionality
@@ -10,8 +19,7 @@ e.g.
 - typeof checks can't have type coercion,
 - there's no RegExp, no array.push, ...
 
-For the moment the stringify'er can handle the basic datatypes in OPL.
-If any more of them should be needed, they can be added easily.
+Hence these tools :)
 
 --
 Example:
@@ -22,7 +30,3 @@ Example:
       includeScript("jsonopl.js");
       writeln(stringify(x));
     }
---
-*ToDo*: 
-- if tuples use identifier, use it as object key,
-- add IloIntervalVar & consorts
