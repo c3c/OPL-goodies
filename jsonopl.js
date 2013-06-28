@@ -1,10 +1,13 @@
 /*
     JSON stringify for OPL
     Based on the JSON2 library by Douglas Crockford
+    By Cedric Van Bockhaven
 
     For the moment the stringify'er can handle the basic datatypes in OPL
     If any more of them should be needed, they can be added easily
+    
     ToDo: if tuple's use identifier, use it as object key
+    ToDo: add interval variables
 */
 
 function str(key, holder) {
